@@ -1,0 +1,22 @@
+
+Bonfire: Repeat a string repeat a string
+
+Repeat a given string (first argument) n times (second argument). Return an empty string if n is a negative number.
+
+Remember to use Read-Search-Ask if you get stuck. Write your own code.
+
+Here are some helpful links:
+
+    Global String Object
+    
+    
+My Answer:
+
+function repeat(str, num) {
+      if (num >= 0) {
+        return str.repeat(num);
+      }
+      else {
+        return "";
+      }
+    }
